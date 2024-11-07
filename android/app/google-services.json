@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "263695208086",
+    "project_id": "spacial-a5afa",
+    "storage_bucket": "spacial-a5afa.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:263695208086:android:deaed9e8b0e9600ff53cb7",
+        "android_client_info": {
+          "package_name": "co.za.spatial.spatial"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "263695208086-95fa2thr4403dt3evfvqu9h4bpjmpek8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCD9sEvWR3LI7qLmZpiyeI0-yEwI7YqxLM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "263695208086-95fa2thr4403dt3evfvqu9h4bpjmpek8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:263695208086:android:f31520ac3b0010eff53cb7",
+        "android_client_info": {
+          "package_name": "com.ledwaba.spacial"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "263695208086-95fa2thr4403dt3evfvqu9h4bpjmpek8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCD9sEvWR3LI7qLmZpiyeI0-yEwI7YqxLM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "263695208086-95fa2thr4403dt3evfvqu9h4bpjmpek8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
