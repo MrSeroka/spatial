@@ -2,23 +2,22 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:introduction_screen/introduction_screen.dart';
-import 'package:spatial/app/start/views/start_view.dart';
-
+import 'package:spatial/app/auth/login_screen.dart';
 import 'package:spatial/style/colors.dart';
 
-class OnBoardingView extends StatefulWidget {
-  const OnBoardingView({super.key});
+class OnBoardingScreen extends StatefulWidget {
+  const OnBoardingScreen({super.key});
 
   @override
-  OnBoardingViewState createState() => OnBoardingViewState();
+  OnBoardingScreenState createState() => OnBoardingScreenState();
 }
 
-class OnBoardingViewState extends State<OnBoardingView> {
+class OnBoardingScreenState extends State<OnBoardingScreen> {
   final introKey = GlobalKey<IntroductionScreenState>();
 
   void _onIntroEnd(context) {
     Navigator.of(context).pushReplacement(
-      MaterialPageRoute(builder: (_) => StartView()),
+      MaterialPageRoute(builder: (_) => LoginScreen()),
     );
   }
 
